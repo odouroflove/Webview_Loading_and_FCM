@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@color/colorBackground"
+    >
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:scaleType = "fitCenter"
+        android:src = "@drawable/logo_ovn_splashscreen"
+        />
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        />
+    <!--<TextView-->
+        <!--android:layout_marginTop="0dp"-->
+        <!--android:textSize="15dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/gioithieu"-->
+        <!--/>-->
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/splashscreen"
+        android:id="@+id/btntieptuc"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/test"
+        android:id="@+id/btntest"
+        />
+    <TextView
+        android:layout_gravity="right"
+        android:layout_marginRight="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textAllCaps="false"
+        android:id="@+id/txtcontinue"/>
+
+</LinearLayout>

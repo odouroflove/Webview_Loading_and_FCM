@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Phần mềm Việt Shop</string>
+    <string name="splashscreen">Tiếp tục...</string>
+    <string name="welcome">Chúc một ngày tốt lành :)</string>
+    <string name="gioithieu">Bạn đang sử dụng Phần mềm Việt Shop</string>
+    <string name="test">Tết</string>
+    <string name="back"><u>Quay lại</u></string>
+    <string name="gocontinue"><b><u>Tiếp tục</u></b></string>
+    <string name="kiemtra">Kiểm tra Notification</string>
+    <string name="exit">Thoát</string>
+</resources>
